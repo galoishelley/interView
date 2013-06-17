@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+**校验输入的数,是否是回文数.
 **check whether the input integer number palindrome
 **create_version_time:20130617
 */
@@ -41,7 +42,9 @@ int fJudge_2(long k)
 	return 1;
 }
 
-/*[0-1000] contain palindrome*/
+/*1000 以内的回文数
+**[0-1000] contain palindrome
+*/
 void fFindPalindrome(const long iMin,const long iMax)
 {
 	printf("\n[%ld-%ld] contain palindrome list:\n",iMin,iMax);
