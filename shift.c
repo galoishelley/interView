@@ -1,12 +1,6 @@
 #include <stdio.h>
 
 /*
-无符号整型i,二进制从右向左第n个数开始,对m个数取反,其他值不变.
-例如:i=01011,m=3,n=2 则运行的结果为:00101
-
-总结
-异或:遇到0是本身 遇到1取反 与1异或相当于取反
-
 Unsigned int i,the n binary numbers from right to left starting number for m negated,
 other values unchanged.
 For example: i = 01011, m = 3, n = 2 the results of runs: 00101
