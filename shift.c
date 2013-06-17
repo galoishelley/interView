@@ -7,9 +7,10 @@
 总结
 异或:遇到0是本身 遇到1取反 与1异或相当于取反
 
-Unsigned int i,the n binary numbers from right to left starting number for m negated,
-other values unchanged.
-For example: i = 01011, m = 3, n = 2 the results of runs: 00101
+With unsigned integer i,toggle m bits start from n (back to front)
+e.g.
+input:i=01011,m=3,n=2
+output:00101
 
 summary:
 XOR: X XOR 0 is X, X XOR 1 is negated X, with 1 XOR equivalent itself negated.
